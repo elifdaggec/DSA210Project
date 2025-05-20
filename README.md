@@ -44,6 +44,15 @@ The dataset consists of **personal bank transactions** recorded over a specific 
 - **Transaction ID:** A unique reference number for each transaction.
 
 ---
+## Key Findings from Statistical Testing
+
+- 💸 **Weekday vs. Weekend Spending**  
+  - A t-test was conducted to compare spending patterns.
+  - **Result:** No significant difference found (p = 0.1620).
+  - **Interpretation:** Spending is consistent across weekdays and weekends.
+
+- [Optional] Add future tests like monthly variance or transaction types.
+
 
 ## 📅 Project Plan and Timeline
 
