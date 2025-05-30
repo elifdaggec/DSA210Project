@@ -25,19 +25,30 @@ Managing personal finances efficiently is crucial for long-term well-being. This
 ## 🔎 Main Research Questions
 
 ### Spending & Income Patterns
-- How do my expenses vary month to month?
+- How do my expenses fluctuate across different months?
 - What are my top spending categories?
-- How much do I spend on subscriptions, rent, or transfer-like recurring transactions?
+- How much do I spend on recurring payments (e.g., subscriptions, rent, bills)?
 
 ### Cash Flow & Savings
-- Am I saving more than I spend each month?
-- Do I spend more on weekends or weekdays?
-- Are there specific dates with spikes or anomalies in expense amounts?
+- Am I consistently saving money, or spending more than I earn?
+- How does my spending behavior change across the month?
+- What are the biggest spikes or anomalies in my expenses?
 
 ### Merchant & Transaction Analysis
-- Which merchants or transaction types appear most often?
-- What’s the distribution between card use, cash withdrawal, and transfers?
-- Are there any duplicate or suspicious transactions?
+- Which merchants or transaction types do I spend most on?
+- How frequently do I withdraw cash vs. use digital payments?
+- Are there duplicate or unexpected charges in my transaction history?
+
+### General Spending Trends
+- Is there a significant trend in spending amount over time?
+
+---
+
+**Hypothesis Testing**
+- **Null Hypothesis (H₀):** There is no significant trend in spending amount over time.
+- **Alternative Hypothesis (H₁):** There is a significant trend in spending amount over time.
+- **Approach:** We apply linear regression to test the trend over time and interpret the slope coefficient and p-value to accept or reject H₀.
+
 
 ---
 
